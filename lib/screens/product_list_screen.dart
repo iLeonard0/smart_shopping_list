@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/product_provider.dart';
 import '../providers/theme_provider.dart';
+import '../widgets/item_counter_widget.dart';
 
 class ProductListScreen extends StatelessWidget {
   const ProductListScreen({super.key});
@@ -52,7 +53,7 @@ class ProductListScreen extends StatelessWidget {
                     child: Text(
                       "Cancelar",
                       style: TextStyle(
-                          color: isDarkMode ? Colors.white : Colors.black),
+                          color: isDarkMode ? Colors.white : Colors.white),
                     ),
                   ),
                   const SizedBox(width: 15),
@@ -64,7 +65,7 @@ class ProductListScreen extends StatelessWidget {
                     child: Text(
                       "Adicionar",
                       style: TextStyle(
-                          color: isDarkMode ? Colors.white : Colors.black),
+                          color: isDarkMode ? Colors.white : Colors.white),
                     ),
                   ),
                 ],
@@ -93,6 +94,7 @@ class ProductListScreen extends StatelessWidget {
       ),
       body: Column(
         children: [
+          ItemCounterWidget(),
           Padding(
             padding: const EdgeInsets.only(top: 20),
             child: Center(

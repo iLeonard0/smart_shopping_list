@@ -10,7 +10,7 @@ class ProductProvider with ChangeNotifier {
 
   List<Product> get products => _products;
 
-  List<Map<String, dynamic>> _shoppingList = [];
+  final List<Map<String, dynamic>> _shoppingList = [];
 
   List<Map<String, dynamic>> get shoppingList => _shoppingList;
 

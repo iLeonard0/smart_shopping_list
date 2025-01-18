@@ -7,10 +7,8 @@ void main() {
       final provider = ProductProvider();
       await provider.fetchProducts();
 
-      // Verifica se produtos foram carregados
       expect(provider.products.isNotEmpty, true);
 
-      // Verifica que não está mais carregando
       expect(provider.isLoading, false);
     });
   });

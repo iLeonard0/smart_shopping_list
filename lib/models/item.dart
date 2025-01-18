@@ -5,7 +5,6 @@ class ShoppingItem {
 
   ShoppingItem({this.id, required this.name, this.isBought = false});
 
-  // Converte de um mapa (do banco de dados) para um objeto ShoppingItem
   factory ShoppingItem.fromMap(Map<String, dynamic> map) {
     return ShoppingItem(
       id: map['id'],
@@ -14,7 +13,6 @@ class ShoppingItem {
     );
   }
 
-  // Converte um objeto ShoppingItem para um mapa (para salvar no banco)
   Map<String, dynamic> toMap() {
     return {
       'id': id,
