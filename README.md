@@ -43,7 +43,3 @@ O **Smart Shopping List** é um aplicativo para gerenciar sua lista de compras d
 ## Contribuições
 
 Contribuições são bem-vindas! Para sugerir melhorias ou corrigir erros, envie um **Pull Request**.
-
-## Licença
-
-Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
